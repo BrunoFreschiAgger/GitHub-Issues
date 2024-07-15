@@ -11,7 +11,7 @@ gitHubForm.addEventListener('submit', (e) => {
 
 });
 
-const token = ' TOKEN ';
+const token = ' your token ';
 
 const requestReposIssues = (name) => {
     fetch(`https://api.github.com/repos/${name}/issues`,
